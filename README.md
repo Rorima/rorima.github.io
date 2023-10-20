@@ -1,3 +1,2 @@
-# Rorima
-
-This is my personal website
+# curso-toki-pona
+Curso de toki pona em português

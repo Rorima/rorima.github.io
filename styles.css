@@ -1,5 +1,11 @@
 body {
+    font-size: 1.2rem;
     margin: 10%;
-    margin-top: 0%;
-    font-size: 22px;
+}
+
+@media (min-width: 801px) {
+    body {
+        font-size: 1.3rem;
+        margin-top: 5%;
+    }
 }
