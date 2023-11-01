@@ -1,5 +1,3 @@
-# curso-toki-pona
-Curso de toki pona em português
+# Curso toki pona
 
-
-
+Este curso está sendo construído.
