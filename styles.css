@@ -8,6 +8,11 @@ body {
     font-size: 1.5rem;
 }
 
+hgroup {
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,6 +29,10 @@ body {
 .brand-title a {
     text-decoration: none;
     color: white;
+}
+
+.navbar-links {
+    margin-right: 3%;
 }
 
 .navbar-links ul {
@@ -73,6 +82,11 @@ body {
 @media (max-width: 750px) {
     body {
         font-size: 1.3rem;
+    }
+
+    hgroup {
+        font-size: 1.3rem;
+        margin-left: 5%;
     }
 
     .toggle-button {
