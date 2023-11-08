@@ -79,6 +79,23 @@ hgroup {
     margin-top: 0%;
 }
 
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes-navegacao {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+}
+
+.botoes-navegacao:hover {
+    background-color: rgb(152, 152, 152);
+}
+
 @media (max-width: 750px) {
     body {
         font-size: 1.3rem;
