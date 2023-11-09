@@ -141,4 +141,12 @@ hgroup {
         margin: 5%;
         margin-top: 0%;
     }
+
+    .botoes-navegacao {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 3px 5px;
+        background-color: #333;
+    }
 }
