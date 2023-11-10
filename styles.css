@@ -137,6 +137,10 @@ hgroup {
         display: flex;
     }
 
+    .brand-title {
+        padding-bottom: 7px;
+    }
+
     .content {
         margin: 5%;
         margin-top: 0%;

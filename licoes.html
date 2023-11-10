@@ -9,14 +9,28 @@
     <meta name="description" content="Página de lições do curso de toki pona.">
 
     <style>
-        .content {
-            border: 2px solid;
-            padding: 10px;
+        
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
         }
 
         .content li {
-            list-style-position: inside;
+            border: 2px solid;
+            padding: 10px;
+            margin-top: 5px;
+
             text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        li:hover {
+            background-color: rgb(221, 221, 221);
         }
     </style>
     <link rel="icon" href="./favicon.png" type="image/x-icon">
@@ -35,9 +49,13 @@
         <h1>Lições</h1>
     </hgroup>
     
-    <ol class="content">
-        <li><a href="./licoes/introducao.html">Introdução</a></li>
-    </ol>
+    <ul class="content">
+        <a href="./licoes/introducao.html"><li>Introdução</li></a>
+        <a href="#"><li>outra</li></a>
+        <a href="#"><li>outra</li></a>
+        <a href="#"><li>outra</li></a>
+        <a href="#"><li>outra</li></a>
+    </ul>
 </body>
 
 </html>
