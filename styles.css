@@ -11,6 +11,7 @@ body {
 hgroup {
     font-size: 1.5rem;
     margin-left: 10%;
+    padding: 5px;
 }
 
 .navbar {
@@ -96,6 +97,18 @@ hgroup {
     background-color: rgb(152, 152, 152);
 }
 
+.link-explicativo {
+    text-decoration: none;
+    color: rgb(0, 139, 0);
+
+}
+
+.explicacao {
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+}
+
 @media (max-width: 750px) {
     body {
         font-size: 1.3rem;
@@ -147,6 +160,6 @@ hgroup {
     }
 
     .botoes-navegacao {
-        padding: 3px 5px;
+        padding: 5px 8px;
     }
 }
