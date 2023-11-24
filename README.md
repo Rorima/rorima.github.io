@@ -11,3 +11,4 @@ Este é um curso de toki pona em português que fiz porque estou aprendendo a de
 - [ ] Deixar o dicionário completo com diversas definições. Explicar como uma palavra pode ser usada como verbo, verbo auxiliar, objeto, modificador e etc.
 - [ ] Continuar lendo livros gramaticais de toki pona, corrigir e adicionar coisas que faltam no curso.
 - [ ] Criar uma barra de pesquisa para o dicionário para que o usuário não precise usar o CTRL+F.
+- [ ] Talvez criar uma página com explicações gramaticais, dizendo o que é um verbo, o que é um substantivo e etc. É necessário que se utilize explicações simples, para que até uma criança entenda.
