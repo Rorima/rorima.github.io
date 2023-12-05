@@ -1,0 +1,7 @@
+Era uma vez, em uma terra distante, um homem chamado Jonas. Deus pediu a Jonas para ir à cidade de Nínive e contar aos seus habitantes sobre a necessidade de mudança, pois estavam fazendo coisas ruins. Mas Jonas ficou com medo e decidiu fugir para longe do que Deus havia pedido.
+
+Ele embarcou em um barco, mas o mar ficou furioso. Uma tempestade assustadora se formou, e os marinheiros perceberam que Jonas era a causa do problema. Jonas corajosamente disse-lhes para jogá-lo no mar, e assim fizeram. Um grande peixe apareceu e engoliu Jonas, mas em vez de ser um fim triste, tornou-se um novo começo.
+
+Dentro do ventre do peixe, Jonas pensou sobre suas ações e orou a Deus. Deus ouviu suas palavras sinceras e, em resposta, o peixe o vomitou na praia. Jonas percebeu que não podia escapar da vontade de Deus. Finalmente, ele foi a Nínive, contou às pessoas sobre Deus e pediu que mudassem. Surpreendentemente, todos na cidade ouviram, se arrependeram e mudaram seus caminhos.
+
+Deus, vendo o arrependimento sincero, escolheu perdoar a cidade. Jonas aprendeu uma valiosa lição sobre obediência, compaixão e o amor infinito de Deus. E assim, a história de Jonas tornou-se uma história de segundas chances e como é importante seguir o caminho certo.

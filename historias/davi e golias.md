@@ -1,0 +1,5 @@
+Havia um jovem pastor chamado Davi, corajoso e cheio de fé, que se tornaria um grande rei de Israel. Um dia, as tropas de Israel enfrentaram os filisteus, e um gigante chamado Golias desafiou o exército de Israel para uma batalha individual. Ninguém ousava enfrentar Golias devido ao seu tamanho assustador.
+
+Davi, embora jovem e inexperiente em batalhas, ofereceu-se para enfrentar Golias. O rei permitiu, e Davi escolheu cinco pedras lisas de um riacho e sua funda. Confiantemente, ele enfrentou Golias, declarando que estava ali em nome do Deus vivo.
+
+Com apenas uma pedra, Davi atirou na testa de Golias, derrotando o gigante. O exército filisteu fugiu, e os israelitas celebraram a vitória. Davi tornou-se um herói, simbolizando a vitória pela fé e confiança em Deus, independentemente das aparências. Mais tarde, ele se tornou o grande Rei Davi, conhecido por sua sabedoria, coragem e devoção a Deus. A história de Davi e Golias inspira a todos a confiar em Deus, mesmo diante dos desafios aparentemente impossíveis.
