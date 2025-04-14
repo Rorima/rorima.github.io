@@ -17,7 +17,7 @@ class MyNavbar extends HTMLElement {
                 </ul>
             </div>
         </nav>
-        `
+        `;
     }
 }
 
