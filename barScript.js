@@ -1,4 +1,5 @@
 class MyNavbar extends HTMLElement {
+    
     connectedCallback() {
         this.innerHTML = `
         <nav class="navbar">
@@ -11,7 +12,7 @@ class MyNavbar extends HTMLElement {
             <div class="navbar-links">
                 <ul>
                     <li><a href="./index.html">Página Inicial</a></li>
-                    <li><a href="/licoes.html">Lições</a></li>
+                    <li><a href="./licoes.html">Lições</a></li>
                     <li><a href="./dicionario.html">Dicionário</a></li>
                     <li><a href="./sobre.html">Sobre</a></li>
                 </ul>
