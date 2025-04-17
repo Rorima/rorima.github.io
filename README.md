@@ -13,10 +13,10 @@ Ela foi feita com HTML e Bootstrap. Fiz questão de utilizar Boostrap aqui para 
 - [x] Ajustar as listas
 - [x] Organizar a ordem dos itens na lista, colocando os mais importantes primeiro
 - [x] Ajustar o tamanho dos títulos
-- [x] Adicione botões para seus projetos
+- [x] Adicionar botões para seus projetos
 - [x] Ajustar o posicionamento dos botões
-- [x] Adicione um ícone no site
-- [x] Suba o site para o Github pages
-- [ ] Coloque o link dos botões
-- [ ] Corrija os links do curso de toki pona
-- [ ] Quando tiver muitos projetos, crie uma página separada contendo seus projetos e deixe na página inicial somente os três projetos mais importantes
+- [x] Adicionar um ícone no site
+- [x] Subir o site para o Github pages
+- [x] Colocar o link dos botões
+- [x] Corrigir os links do curso de toki pona
+- [ ] Quando tiver muitos projetos, criar uma página separada contendo seus projetos e deixar na página inicial somente os três projetos mais importantes
