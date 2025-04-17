@@ -2,7 +2,7 @@
 
 Este é minha página inicial. Nela contém todo o meu currículo, juntamente com os projetos em que estou trabalhando.
 
-Ela foi feita com HTML e Bootstrap.
+Ela foi feita com HTML e Bootstrap. Fiz questão de utilizar Boostrap aqui para praticar o que aprendi nos cursos.
 
 ## TODO
 
@@ -16,6 +16,7 @@ Ela foi feita com HTML e Bootstrap.
 - [x] Adicione botões para seus projetos
 - [x] Ajustar o posicionamento dos botões
 - [x] Adicione um ícone no site
-- [ ] Suba o site para o Github pages
+- [x] Suba o site para o Github pages
 - [ ] Coloque o link dos botões
+- [ ] Corrija os links do curso de toki pona
 - [ ] Quando tiver muitos projetos, crie uma página separada contendo seus projetos e deixe na página inicial somente os três projetos mais importantes

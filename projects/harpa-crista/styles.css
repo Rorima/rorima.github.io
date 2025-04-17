@@ -1,0 +1,127 @@
+body {
+	background-color: #458387;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	margin: 0% 15%;
+	padding: 1% 7%;
+	font-size: 21px;
+	background-color: white;
+	box-shadow: 0 0 10px #5e5e5e;
+}
+
+h1 {
+	text-align: center;	
+}
+
+h1, h2 {
+	color: #458387;
+}
+
+p {
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: black;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 10px 0;
+}
+
+a:hover {
+	background-color: #72bdc2;
+}
+
+#formularioPesquisa {
+	width: 80%;
+	margin: auto;
+}
+
+#listaHinos {
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px 20px;
+}
+
+#listaHinos p {
+	padding: 0;
+	margin: 0;
+}
+
+#inputBusca {
+	font-size: 20px;
+	width: 100%;
+	background-color: #458387;
+	color: white;
+	margin-bottom: 5%;
+}
+
+#inputBusca::placeholder {
+	color: white;
+	opacity: 90%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+ 	main {
+		margin: 0% 4%;
+		padding: 1% 4%;
+		font-size: 1.4em;
+		background-color: white;
+		box-shadow: 0 0 10px #5e5e5e;
+	}
+
+	#formularioPesquisa {
+		width: 80%;
+		margin: auto;
+	}
+
+	#inputBusca {
+		font-size: 20px;
+		background-color: #458387;
+		color: white;
+		width: 97%;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+	
+	a:hover {
+	background-color: white;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+ 	main {
+		margin: 0% 4%;
+		padding: 1% 4%;
+		font-size: 1.9em;
+		background-color: white;
+		box-shadow: 0 0 10px #5e5e5e;
+	}
+
+	#formularioPesquisa {
+		width: 80%;
+		margin: auto;
+	}
+
+	#inputBusca {
+		font-size: 30px;
+		background-color: #458387;
+		color: white;
+		width: 97%;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+	
+	a:hover {
+		background-color: white;
+	}
+}
