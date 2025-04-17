@@ -1,14 +1,21 @@
-# Curso de toki pona
+# README
 
-Este é um curso de toki pona em português que fiz porque estou aprendendo a desenvolver para a web e também porque vi pouco conteúdo em português na Internet sobre como aprender toki pona.
+Este é minha página inicial. Nela contém todo o meu currículo, juntamente com os projetos em que estou trabalhando.
 
-## Para fazer
+Ela foi feita com HTML e Bootstrap.
 
-- [x] Terminar as lições em MarkDown.
-- [ ] Adicionar todas as lições em HTML.
-- [ ] Revisar cada uma das lições, corrigir erros e estabelecer um padrão de como os exemplos serão escritos. Também verificar se não estou usando palavras que ainda não ensinei.
-- [ ] Criar um dicionário de sentenças para que o usuário possa entender como cada palavra pode ser usada.
-- [ ] Deixar o dicionário completo com diversas definições. Explicar como uma palavra pode ser usada como verbo, verbo auxiliar, objeto, modificador e etc.
-- [ ] Continuar lendo livros gramaticais de toki pona, corrigir e adicionar coisas que faltam no curso.
-- [ ] Criar uma barra de pesquisa para o dicionário para que o usuário não precise usar o CTRL+F.
-- [ ] Talvez criar uma página com explicações gramaticais, dizendo o que é um verbo, o que é um substantivo e etc. É necessário que se utilize explicações simples, para que até uma criança entenda.
+## TODO
+
+- [x] Terminar de escrever o conteúdo da página
+- [x] Colocar um espaço entre as colunas
+- [x] Mudar a cor de fundo do site
+- [x] Mudar a cor da fonte e dos cards
+- [x] Ajustar as listas
+- [x] Organizar a ordem dos itens na lista, colocando os mais importantes primeiro
+- [x] Ajustar o tamanho dos títulos
+- [x] Adicione botões para seus projetos
+- [x] Ajustar o posicionamento dos botões
+- [x] Adicione um ícone no site
+- [ ] Suba o site para o Github pages
+- [ ] Coloque o link dos botões
+- [ ] Quando tiver muitos projetos, crie uma página separada contendo seus projetos e deixe na página inicial somente os três projetos mais importantes

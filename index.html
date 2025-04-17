@@ -1,58 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Clique para ver o portfolio de Rorima" />
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <title>Rorima</title>
 
-<html lang="pt">
+        <!--
+        Icon made by: Royyan Wijaya
+        https://www.flaticon.com/free-icons/coding
+        -->
+        <link rel="icon" href="code.ico" type="image/x-icon">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aprenda a língua toki pona do neste pequeno curso.">
-
-    <link rel="icon" href="./favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles.css">
-    
-    <!--<script src="./script.js" defer></script>-->
-    
-    <title>Aprenda toki pona</title>
-</head>
-
-<body>
-    <my-navbar></my-navbar>
-    <script src="./barScript.js"></script>
-
-    <hgroup>
-        <h1>Curso de toki pona</h1>
-    </hgroup>
-    
-    <article class="content">
-
-        <h2>Boas-vindas!</h2>
-
-        <p>Neste site você vai encontrar conteúdo em português para aprender a língua toki pona.</p>
-
-        <p>Se você estudar todas as lições, no final do curso você será capaz de entender sentenças e textos e até mesmo falar e escrever muitas coisas, se praticar o que estudar.</p>
-
-        <h3>O que é toki pona?</h3>
-
-        <p>A língua toki pona é uma língua construída (ou "conlang", do inglês "constructed language") que foi criada por Sonja Elen Kisa em 2001. Ela foi feita para ser uma língua minimalista, com poucas palavras e uma gramática simples, com o objetivo de incentivar a simplicidade e a comunicação eficaz. A expressão "toki pona" significa "língua boa" ou "língua simples" em toki pona.</p>
         
-        <p>Ela tem um vocabulário muito limitado, com cerca de 120 a 137 palavras básicas, dependendo da interpretação. Isso significa que os falantes de toki pona precisam usar palavras existentes de forma criativa para se comunicar.</p>
-        
-        <p>A gramática é bastante direta, com foco na simplicidade e no fácil entendimento. A maioria das frases segue uma estrutura sujeito-verbo-objeto (SVO), mas a ordem das palavras pode variar para mostrar pequenas diferenças.</p>
-        
-        <p>toki pona é usada principalmente como uma linguagem de arte, meditação, ou teste linguístico por causa da sua simplicidade. É difícil que se torne uma língua usada por muitas pessoas para a comunicação do dia a dia, mas é admirada por aqueles que buscam uma maneira de simplificar a fala e a comunicação.</p>
+        <style>
+            [class*="cards col-md"] {
+                border: 2px solid #6c757d;
+            }
+            
+            .cards {
+                position: relative;
+            }
+            [class*="btn btn-info"] {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+            }
+            
+            .my_list {
+                margin: 0;
+            }
 
-        <h3>Como estudar este curso?</h3>
+            .p_card {
+                margin-bottom: 60px;
+            }
+            
+            #degree {
+                font-size: 1.2em
+            }
+        </style>
+    </head>
+    <body class="bg-secondary text-light">
+        <div class="container">
+            <h1 class="mb-4 text-center border-bottom">Roniel Lima</h1>
 
-        <p>Leia as lições e tente criar suas próprias sentenças utilizando as palavras novas que você aprendeu. Para ter certeza que você aprendeu a gramática, tente explicar a si mesmo o que acabou de aprender na lição. É importante que você esteja sempre usando o que aprendeu. Assim fica mais difícil de esquecer.</p>
+            <div class="row mb-4 gx-1">
+                <div class="col-xm-12 cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h3>Informações</h3>
 
-        <div class="botoes">
-            <a href="./licoes.html" class="botoes-navegacao" style="visibility: hidden;">Lições</a>
-            <a href="./licoes.html" class="botoes-navegacao" id="link-licoes">Lições</a>
-            <a href="./licoes.html" class="botoes-navegacao" style="visibility: hidden;">Lições</a>
+                    <p>
+                        Especialização: Desenvolvimento Web e Design<br />
+                        Cidade: Brasília - DF<br />
+                        Github: <a class="text-info" href="https://github.com/Rorima" target="_blank"> https://github.com/Rorima</a>
+                    </p>
+                </div>
+
+                <div class="col-sm-12 cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h3>Sobre mim</h3>
+
+                    <p>Sou um desenvolvedor com experiência em desenvolvimento web e design. Gosto muito de aprender coisas novas e estou sempre trabalhando em projetos que me desafiam a aprender uma nova tecnologia.</p>
+                </div>
+            </div>
+
+            <h2 class="text-center">Projetos</h2>
+
+            <div class="row mb-4 gx-1">
+                <div class="cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Harpa Cristã</h4>
+
+                    <p class="p_card">Site contendo todos os 640 hinos da harpa. Para este site, tive de escrever scripts python para automatizar a ação de copiar e colar utilizando a biblioteca pyautogui. Também utilizei a biblioteca pathlib para criar arquivos HTML em massa para armazenar cada hino.</p>
+                    
+                    <a href="#" role="button" class="btn btn-info">Acesse</a>
+                </div>
+                <div class="cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Curso de toki pona</h4>
+
+                    <p class="p_card">Um curso completo de toki pona com 40 lições e testos no final para praticar o que se aprendeu. Para escrever esse curso tive de consultar cerca de 6 livros de gramática disponíveis online. O curso foi feito cuidadosamente para ajudar iniciantes a aprenderem as partes mais profundas da língua. Ele mostra em detalhes como utilizar cada parte da língua e como a gramática funciona.</p>
+                    
+                    <a href="#" role="button" class="btn btn-info">Acesse</a>
+                </div>
+                <div class="cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>SRS Rust</h4>
+
+                    <p class="p_card">Um programa de SRS (Spaced Repetition System) feito em Rust para rodar na linha de comando.</p>
+
+                    <a href="#" role="button" class="btn btn-info">EM CONSTRUÇÃO</a>
+                </div>
+                <div class="cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Contador</h4>
+                    <p class="p_card">Uma site que contém contadores para contar qualquer coisa que você quiser. Você pode criar seu contador customizável, colocar nome, mudar a cor e etc. Tudo fica salvo no navegador por meio de cookies.</p>
+
+                    <a href="#" role="button" class="btn btn-info">EM CONSTRUÇÃO</a>
+                </div>
+            </div>
+            <h2 class="text-center">Escolaridade e Cursos</h2>
+            <div class="row mb-3 gx-1">
+                <div class="cards col-md-6 bg-dark p-3 bg-opacity-50 rounded">
+                    <ul id="degree" class="my_list list-unstyled">
+                        <li><b>Análise e Desenvolvimento de Sistemas</b></li>
+                        <li>Faculdade IBRA</li>
+                        <li>jul. 2022 - dez. 2024</li>
+                        <li>Brasília - DF</li>
+                    </ul>
+                </div>
+                <div class="cards col-md-6 bg-dark p-3 bg-opacity-50 rounded">
+                    <ul class="my_list list-unstyled">
+                        <li>Desenvolvedor Web (HTML, CSS, JS, Bootstrap) - Udemy</li>
+                        <li>Bancos de Dados SQL e NoSQL - Udemy</li>
+                        <li>Python do Básico ao Avançado - Udemy</li>
+                        <li>Algoritmos e Lógica de Programação - Udemy</li>
+                        <li>Arquitetura de Redes - Udemy</li>
+                         <li>Montagem e Manutenção de Computadores - Udemy</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h2 class="text-center">Habilidades</h2>
+            <div class="row mb-4 gx-1">
+                <div class="cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Linguagens de Programação</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Rust</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="cards col-md-6 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Linguagens de Marcação e Estilo</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>MarkDown</li>
+                        <li>XML</li>
+                    </ul>
+                </div>
+            </div>
+            <h2 class="text-center">Ferramentas</h2>
+            <div class="row mb-3 rounded bg-dark bg-opacity-50 gx-1 p-2">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="my_list list-unstyled">
+                                <li class="">Visual Studio Code</li>
+                                <li class="">PostgreSQL</li>
+                                <li class="">Microsoft SQL Server</li>
+                                <li class="">Git</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="my_list list-unstyled">
+                                <li class="">Github</li>
+                                <li class="">FireAlpaca</li>
+                                <li class="">WordPress</li>
+                                <li class="">Google Admin</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="my_list list-unstyled">
+                                <li class="">IntelBras S.I.M Next</li>
+                                <li class="">Windows</li>
+                                <li class="">Linux</li>
+                                <li class="">Totvs RM Educacional</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="my_list list-unstyled">
+                                <li class="">Canva</li>
+                                <li class="">Pacote Office</li>
+                                <li class="">MarketUp</li>
+                                <li class="">Audacity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="observacao mt-4">Observação: Já trabalhei com cada uma dessas ferramentas nos meus antigos empregos.</p>
+            </div>
+
+            
+
+            <div class="row mb-4 gx-1">
+                <div class="cards col-md-4 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Conhecimentos Técnicos</h4>
+                    <ul>
+                        <li>IP, HTTP/HTTPS, FTP, SMTP, DNS, DHCP</li>
+                        <li>Roteador, switch, modem, repetidor, ponto de acesso</li>
+                        <li>Hardware, impressoras, projetores Epson</li>
+                    </ul>
+
+                    <p class="observacao">Observação: Já atuei como técnico utilizando as tecnologias cidadas acima.</p>
+                </div>
+                <div class="cards col-md-8 p-2 bg-dark bg-opacity-50 rounded">
+                    <h4>Línguas</h4>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <ul>
+                                <li>Inglês - Fluente</li>
+                                <li>Espanhol - Passivo *</li>
+                                <li>Francês - Passivo *</li>
+                                <li>Italiano - Passivo *</li>
+                                <li>Esperanto - Avançado</li>
+                                <li>toki pona - Avançado</li>
+                                <li>Lingua Franca Nova - Avançado</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7">
+                            <p class="observacao">Observação: "Passivo" indica que entendo tudo o que leio, e entendo uma grande parte do que escuto, entretanto não sei falar. Já estudei essas línguas utilizando os métodos MIA (Mass Input Approach), SRS (Spaced Repetition System), e mnemônicos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-    </article>
-</body>
 
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
 </html>
