@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Create your own counters and edit them at your will">
+        
+        <title>Counters</title>
+        
+        <link href="styles.css" rel="stylesheet">
+        
+        <script src="js/jquery-3.7.1.js"></script>
+        
+        <!--
+        Icon by: Shuvo.Das
+        https://www.flaticon.com/free-icons/numbers
+        -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="counters-container" class="counters"></div>
+        
+        <div class="edit-box">
+            <div class="edit-box-content">
+                <span class="close">&times;</span>
+                <form class="edit-form">
+                    <label class="counter-name-label" for="counterNameInput">Counter name:</label>
+                    <input name="counterName" id="counterNameInput" class="counter-name" type="text" maxlength="18">
+                    <label class="counter-value-label" for="counterValueInput">Counter value:</label>
+                    <input name="counterValue" id="counterValueInput" class="counter-value" type="number">
+                </form>
+                
+                <div class="edit-buttons">
+                    <input id="confirmButton" class="confirm-button" type="button" value="Confirm">
+                    <input id="cancelButton" class="cancel-button" type="button" value="Cancel">
+                </div>
+            </div>
+        </div>
+        
+        <input id="more-counters" class="more-counters" type="button" value="+">
+        
+        <script src="js/script3.js" defer></script>
+    </body>
+</html>
