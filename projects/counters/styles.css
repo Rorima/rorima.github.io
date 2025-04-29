@@ -100,8 +100,10 @@ body {
     border-radius: 10px;
 }
 
-.plus-button:hover, .minus-button:hover, .reset-button:hover, .delete-button:hover, .edit-button:hover, .confirm-button:hover, .cancel-button:hover {
-    background-color: #2a9d8f;
+@media (min-width: 769px) {
+    .plus-button:hover, .minus-button:hover, .reset-button:hover, .delete-button:hover, .edit-button:hover, .confirm-button:hover, .cancel-button:hover {
+        background-color: #2a9d8f;
+    }
 }
 
 .more-counters {
@@ -118,9 +120,12 @@ body {
     color: #023047;
 }
 
-.more-counters:hover {
-    background-color: #fce735;
+@media (min-width: 769px) {
+    .more-counters:hover {
+        background-color: #fce735;
+    }
 }
+
 
 .edit-box {
     display: none;
