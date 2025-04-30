@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <!--
+            Icon by Pixel Perfect
+            https://www.flaticon.com/search?word=text
+        -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Word Counter</title>
+    </head>
+    <body>
+        <main>
+            <h1>Word Counter</h1>
+            <div class="text-information">
+                <div class="information" id="wordContainer">
+                    <p class="titles">Words:</p>
+                    <p class="values" id="wordQuantity">0</p>
+                </div>
+
+                <div class="information">
+                    <p class="titles">Characters:</p>
+                    <p class="values" id="characterQuantity">0</p>
+                </div>
+
+                <div class="information">
+                    <p class="titles">Paragraphs:</p>
+                    <p class="values" id="paragraphQuantity">0</p>
+                </div>
+
+                <div class="information">
+                    <p class="titles">Sentences:</p>
+                    <p class="values" id="sentenceQuantity">0</p>
+                </div>
+
+                <div class="information" id="readingTimeContainer">
+                    <p class="titles">Reading time:</p>
+                    <p class="values" id="readingTime">0 m 0 s</p>
+                </div>
+            </div>
+
+            <label id="textBoxLabel" for="textBox">Type your text:</label>
+            <textarea autofocus spellcheck="false" name="textBox" id="textBox" rows="10" cols="40"></textarea>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

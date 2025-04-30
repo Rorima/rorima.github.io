@@ -1,0 +1,13 @@
+# Plan for the word counter
+
+* It will be a big text box
+* The user will paste a text and the program is going to count the words
+* There program must show the reading time (250wpm?)
+* The program must count how many sentences
+* The program must count how many paragraphs
+* A word is defined by a string of characters separated by space
+* Characters counted as words must be numbers and letters, but special characters must not be counted as words
+* The text box will be in the middle
+* The information about the text will be on the top
+
+inspiration: https://quillbot.com/word-counter
