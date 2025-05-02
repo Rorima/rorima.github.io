@@ -19,4 +19,4 @@ Ela foi feita com HTML e Bootstrap. Fiz questão de utilizar Boostrap aqui para 
 - [x] Subir o site para o Github pages
 - [x] Colocar o link dos botões
 - [x] Corrigir os links do curso de toki pona
-- [ ] Quando tiver muitos projetos, criar uma página separada contendo seus projetos e deixar na página inicial somente os três projetos mais importantes
+- [x] Quando tiver muitos projetos, criar uma página separada contendo seus projetos e deixar na página inicial somente os três projetos mais importantes
