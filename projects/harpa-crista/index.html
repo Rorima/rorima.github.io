@@ -666,29 +666,7 @@
 	</section>
 </main>
 
-    <script type="text/javascript">
-	document.getElementById('inputBusca').addEventListener('input', function() {
-    	const searchTerm = normalizeString(this.value.toLowerCase());
-    	const paragraphs = document.querySelectorAll('#listaHinos p');
-
-    	paragraphs.forEach(paragraph => {
-    		const paragraphText = normalizeString(paragraph.textContent.toLowerCase());
-        	if (paragraphText.includes(searchTerm)) {
-            	paragraph.style.display = ''; // Mostra o parágrafo
-        	} else {
-            	paragraph.style.display = 'none'; // Esconde o parágrafo
-        	}
-    	});
-	});
-
-	// Função para normalizar a string, removendo acentos
-	function normalizeString(str) {
-    	return str
-        .normalize('NFD') // Remove acentos
-        .replace(/[\u0300-\u036f]/g, '') // Remove diacríticos
-        .replace(/[.,!]/g, ''); // Remove vírgulas e pontos de exclamação
-    }
-    </script>
+<script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
