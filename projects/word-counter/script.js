@@ -19,7 +19,7 @@ document.getElementById('textBox').addEventListener('input', function() {
     const paragraphs = (paragraphMatches ? paragraphMatches.length : 0) + 1; // The first paragraph is not counted, so I add 1
 
     // Define sentences
-    const sentenceRegex = /[a-zA-Z]\./g;
+    const sentenceRegex = /[A-Za-z0-9].*?[.!?]/g;
     const sentenceMatches = text.match(sentenceRegex);
     const sentences = (sentenceMatches ? sentenceMatches.length : 0);
 
