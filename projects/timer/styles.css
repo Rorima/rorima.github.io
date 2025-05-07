@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    background-color: #23486A;
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 3em;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#timerContainer {
+    min-width: 400px;
+    max-width: 60%;
+    margin: auto;
+    border: solid 3px;
+    background-color: #305c85;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#timeContainer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    max-height: 100px;
+    box-sizing: border-box;
+    font-size: 3em;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #173b5c;
+}
+
+#controlPanel {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+
+}
+
+.buttons {
+    font-size: 1.3em;
+    margin: 0 10px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: #173b5c;
+    border: none;
+    border-radius: 20px;
+}
+
+.buttons:hover {
+    background-color: #0a2c3f;
+}
+
+input::placeholder {
+    color: white;
+    opacity: .8;
+}
+
+audio {
+    font-size: .8em;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 410px) {
+    body {
+        font-size: 1em;
+    }
+
+    #timerContainer {
+        min-width: 260px;
+        height: 250px;
+    }
+
+    #timeContainer {
+        height: 130px;
+    }
+
+    .time {
+        max-height: 50px;
+        font-size: 2em;
+        width: 70px;
+    }
+
+    .buttons {
+        font-size: 1em;
+        width: 90px;
+    }
+}

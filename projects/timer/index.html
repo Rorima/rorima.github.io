@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!--
+            Favicon by: Anggara
+            https://www.flaticon.com/search?word=time
+        -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Timer</title>
+    </head>
+    <body>
+        <h1>Timer</h1>
+
+        <div id="timerContainer">
+            <div id="timeContainer">
+                <input id="hours" type="number" class="time" min="0" max="99" placeholder="00">
+                <p>:</p>
+                <input id="minutes" type="number" class="time" min="0" max="99" placeholder="00">
+                <p>:</p>
+                <input id="seconds" type="number" class="time" min="0" max="99" placeholder="00">
+            </div>
+            <div id="controlPanel">
+                <!--Start and stop button-->
+                <input class="buttons" id="startStopButton" type="button" value="Start">
+                <input class="buttons" id="restartButton" type="button" value="Restart">
+            </div>
+        </div>
+
+        <audio id="alertAudio" type="audio/wav" src="alert.wav"> Your browser do not support audio</audio>
+        <script src="script.js"></script>
+    </body>
+</html>
